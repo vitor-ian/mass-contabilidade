@@ -130,7 +130,7 @@ span {
   color: #fff;
 }
 .menu-toggle:hover {
-  background: #a80202;
+  background: #003366;
 }
 #Banner {
   position: relative;
@@ -156,12 +156,12 @@ span {
   padding: 0;
 }
 #Banner .btn-primary {
-  background-color: #a80202;
+  background-color: #003366;
   color: #fff;
   border: none;
 }
 #Banner .btn-primary:hover {
-	background-color: #7e0202;
+	background-color: #012242;
 }
 #Services {
   background-color: #fafafa;
@@ -169,13 +169,14 @@ span {
 #Services .service-box {
   position: relative;
   overflow: hidden;
+  margin-top: 20px;
   margin-bottom: 10px;
   perspective: 1000px;
   -webkit-perspective: 1000px;
 }
 #Services .service-icon {
   width: 100%;
-  height: 220px;
+  height: 400px;
   padding: 20px;
   text-align: center;
   transition: all .5s ease;
@@ -187,7 +188,7 @@ span {
   z-index: 1;
   opacity: 0;
   width: 100%;
-  height: 220px;
+  height: 400px;
   padding: 20px;
   text-align: center;
   transition: all .5s ease;
@@ -235,16 +236,28 @@ span {
   margin: 0;
 }
 #Services .service-box .yellow {
-  background: url("../images/Fotos/locacoes.png") no-repeat 0 0 / cover !important;
+  background: url("../images/Fotos/1.png") no-repeat 0 0 / cover !important;
 }
 #Services .service-box .orange {
-  background: url("../images/Fotos/terraplanagem.png") no-repeat 0 0 / cover !important;
+  background: url("../images/Fotos/2.png") no-repeat 0 0 / cover !important;
 }
 #Services .service-box .red {
-  background: url("../images/Fotos/transportes.png") no-repeat 0 0 / cover !important;
+  background: url("../images/Fotos/3.png") no-repeat 0 0 / cover !important;
 }
 #Services .service-box .grey {
-  background: url("../images/Fotos/pavimentacao.png") no-repeat 0 0 / cover !important;
+  background: url("../images/Fotos/4.png") no-repeat 0 0 / cover !important;
+}
+#Services .service-box .black {
+  background: url("../images/Fotos/5.png") no-repeat 0 0 / cover !important;
+}
+#Services .service-box .blue {
+  background: url("../images/Fotos/6.png") no-repeat 0 0 / cover !important;
+}
+#Services .service-box .crimson {
+  background: url("../images/Fotos/7.png") no-repeat 0 0 / cover !important;
+}
+#Services .service-box .green {
+  background: url("../images/Fotos/8.png") no-repeat 0 0 / cover !important;
 }
 #Services .service-box:hover .service-icon {
   opacity: 0;
@@ -262,89 +275,7 @@ span {
   -o-transform: rotateX(0);
   transform: rotateX(0);
 }
-#Portfolio {
-  padding: 80px 0;
-}
-#Portfolio .each-portfolio {
-  position: relative;
-  width: calc(33.3% - 10px);
-  float: left;
-  margin: 0 0 35px;
-  text-decoration: none;
-  outline: 0 none;
-}
-#Portfolio .each-portfolio img {
-  width: 100%;
-  height: auto;
-}
-#Portfolio .each-portfolio span.zoom {
-  margin-top: 30px;
-}
-#Portfolio .each-portfolio .fa-search-plus {
-  font-size: 26px;
-  color: #fff;
-}
-#Portfolio .each-portfolio .p-title {
-  font-size: 22px;
-  color: #fff;
-  transition: top 0.3s ease-in-out;
-}
-#Portfolio .each-portfolio .p-desc {
-  color: #fff;
-  transition: top 0.3s ease-in-out;
-  margin: 0 0 20px;
-}
-#Portfolio .content {
-  position: relative;
-  width: 90%;
-  max-width: 400px;
-  margin: auto;
-  overflow: hidden;
-}
-#Portfolio .content .content-overlay {
-  background: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  height: 99%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
-}
-#Portfolio .content:hover .content-overlay {
-  opacity: 1;
-}
-#Portfolio .content-image {
-  width: 100%;
-}
-#Portfolio .content-details {
-  position: absolute;
-  text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-#Portfolio .content:hover .content-details {
-  top: 50%;
-  left: 50%;
-  opacity: 1;
-}
-#Portfolio .fadeIn-bottom {
-  top: 80%;
-}
+
 #customers-testimonials .shadow-effect {
   background: #fff;
   padding: 20px;
@@ -368,7 +299,7 @@ span {
   margin: -17px auto 0;
   display: table;
   width: auto;
-  background-color: #a80202;
+  background-color: #003366;
   color: #fff;
   padding: 9px 35px;
   border-radius: 12px;
@@ -398,7 +329,7 @@ span {
 }
 #customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot.active span,
 #customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
-  background: #a80202;
+  background: #003366;
   transform: translate3d(0px, -50%, 0px) scale(0.7);
 }
 #customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot span {
@@ -467,7 +398,7 @@ span {
   margin-right: 20px;
 }
 #Contact .contact-wrapper span i {
-  color: #a80202;
+  color: #003366;
 }
 #Contact .form-wrap {
   width: 100%;
@@ -510,7 +441,7 @@ span {
 #Contact .floating-input:focus~label, #Contact .floating-input.not-empty~label {
   top: -18px;
   font-size: 12px;
-  color: #a80202;
+  color: #003366;
   transition: top 0.2s ease-in-out;
 }
 #Contact .submit-btn {
@@ -519,14 +450,14 @@ span {
 #Contact .submit-btn button {
   font-size: 16px;
   color: #fff;
-  background-color: #a80202;
+  background-color: #003366;
   padding: 15px 30px;
   border: none;
   cursor: pointer;
   border-radius: 6px;
 }
 #Contact .submit-btn button:hover {
-	background-color: #7c0303;
+	background-color: #012242;
 }
 footer.footer {
   padding-top: 70px;
@@ -538,20 +469,20 @@ footer.footer .social-link {
   height: 50px;
   width: 50px;
   font-size: 20px;
-  background-color: #a80202;
+  background-color: #003366;
   color: #fff;
   border: none;
   padding: 10px;
 }
 footer.footer .social-link:hover {
-	background-color: #a80202;
+	background-color: #003366;
 }
 footer.footer p.small a {
 	color: #636c72;
 	text-decoration: none;
 }
 footer.footer p.small a:hover, footer.footer p.small a.focus {
-	color: #a80202;
+	color: #003366;
 	text-decoration: none;
 }
 #Contact .address-block span {
