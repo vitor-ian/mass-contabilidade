@@ -1,2 +1,2 @@
-# https://nairotiv.github.io/mass-contabilidade/
+# http://www.masscontabilidade.com.br/
 # mass-contabilidade
