@@ -288,25 +288,24 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
           <div class="form-wrap">
-            <form action="javascript:void(0)" method="post">
+            <form action="https://api.staticforms.xyz/submit" method="POST">
+              <input type="hidden" name="accessKey" value="f4a1d370-0fba-48c7-a262-0868ad2215a8">
+              <input type="hidden" name="redirectTo" value="https://nairotiv.github.io/formulario-enviado/">  
+
               <div class="fname floating-label">
-                <input type="text" class="floating-input" name="full name" />
+                <input type="text" class="floating-input" name="name" />
                 <label for="title">Primeiro Nome</label>
-              </div>
-              <div class="fname floating-label">
-                <input type="text" class="floating-input" name="full name" />
-                <label for="title">Ultimo Nome</label>
               </div>
               <div class="email floating-label">
                 <input type="email" class="floating-input" name="email" />
                 <label for="email">Email</label>
               </div>
               <div class="contact floating-label">
-                <input type="tel" class="floating-input" name="contact" />
+                <input type="text" class="floating-input" name="phone" />
                 <label for="email">Telefone</label>
               </div>
               <div class="company floating-label">
-                <textarea type="text" class="floating-input" name="company" /></textarea>
+                <textarea type="text" class="floating-input" name="message" /></textarea>
                 <label for="email">Mensagem</label>
               </div>
               <div class="submit-btn">
